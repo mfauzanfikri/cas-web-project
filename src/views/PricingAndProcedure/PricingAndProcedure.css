@@ -1,0 +1,125 @@
+/* pricing and procedure */
+#pricingAndProcedure .page-header {
+  margin: 1rem 0;
+  text-align: end;
+}
+
+#pricingAndProcedure .page-header h1 {
+  font-size: 2.8rem;
+}
+
+.packet {
+  margin-bottom: 1.5rem;
+}
+
+.packet-bg {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+#pricingAndProcedure .card {
+  background: #282d33;
+  color: #fff;
+  margin: -8rem auto 0;
+  border-radius: 20px;
+  width: 80%;
+}
+
+.packet-title {
+  width: min-content;
+  margin: 1.5rem auto;
+}
+
+.packet-title p,
+.packet-title h2 {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.packet-title p {
+  font-size: 1.2rem;
+
+  margin-bottom: -0.8rem;
+}
+
+.packet-title h2 {
+  font-size: 2.5rem;
+}
+
+.packet.bronze .packet-title h2 {
+  color: #ff8a00;
+}
+
+.packet.silver .packet-title h2 {
+  color: #c0c0c0;
+}
+
+.packet.gold .packet-title h2 {
+  color: #ffc700;
+}
+
+.packet-features {
+  padding: 0 1rem;
+}
+
+.packet-features .feature {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.packet-features .feature p {
+  margin: 0;
+}
+
+.packet-features .feature img {
+  height: 1rem;
+}
+
+.procedure {
+  background: #dfdfdf;
+  border-radius: 1rem;
+  color: #000;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.procedure h2 {
+  margin: 0;
+}
+
+.download-btn {
+  background: #ffc700;
+  border-radius: 11px;
+  border: none;
+  font-family: inherit;
+  padding: 0.5em 1em;
+}
+
+.download-btn:hover,
+.download-btn:focus {
+  opacity: 0.9;
+}
+
+/* lg */
+@media (min-width: 992px) {
+  #pricingAndProcedure .page-header h1 {
+    font-size: 3.5rem;
+  }
+
+  .download-btn {
+    font-size: 1.3rem;
+  }
+}
+
+/* xxl */
+@media (min-width: 1400px) {
+  #pricingAndProcedure .page-header h1 {
+    font-size: 4rem;
+  }
+}

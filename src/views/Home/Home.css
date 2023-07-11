@@ -1,0 +1,173 @@
+/* home */
+#homeCarousel {
+  height: calc(100vh - 59px);
+}
+
+#homeCarousel button.carousel-control-next,
+#homeCarousel button.carousel-control-prev {
+  width: 8%;
+}
+
+#homeCarousel .carousel-inner,
+#homeCarousel .carousel-item {
+  height: 100%;
+}
+
+#homeCarousel .caption {
+  padding: 0 2rem;
+  align-self: flex-start;
+
+  position: relative;
+  top: 6%;
+}
+
+#homeCarousel .text-one {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+#homeCarousel .caption-header {
+  font-size: 2rem;
+}
+
+#homeCarousel .text-two {
+  font-size: 1.4rem;
+  color: #f1bd06;
+}
+
+#homeCarousel .slide-two .text-one {
+  color: #f1bd06;
+}
+
+#homeCarousel .carousel-item-contents {
+  height: 100%;
+  align-items: center;
+}
+
+.home-btn {
+  margin-top: 1rem;
+  width: 11rem;
+  height: 3rem;
+  background: #fff;
+  border-radius: 4rem;
+  border: solid white;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.home-btn:hover,
+.home-btn:focus {
+  background: #f1bd06;
+  border: solid #f1bd06;
+}
+
+/* sm */
+@media (min-width: 576px) {
+  #home .desktop {
+    display: block;
+  }
+
+  #home .mobile {
+    display: none;
+  }
+
+  #homeCarousel .caption {
+    padding: 0 3rem;
+
+    top: 5%;
+  }
+
+  #homeCarousel .text-one {
+    font-size: 1.5rem;
+  }
+
+  #homeCarousel .caption-header {
+    font-size: 3rem;
+  }
+
+  #homeCarousel .text-two {
+    font-size: 2.5rem;
+  }
+}
+
+/* lg */
+@media (min-width: 992px) {
+  #homeCarousel {
+    height: calc(100vh - 62px);
+  }
+
+  #homeCarousel .text-one {
+    font-size: 1rem;
+  }
+
+  #homeCarousel .caption-header {
+    font-size: 3rem;
+  }
+
+  #homeCarousel .text-two {
+    font-size: 2rem;
+  }
+}
+
+/* xl */
+@media (min-width: 1200px) {
+  #homeCarousel .carousel-item-contents {
+    display: block;
+
+    position: relative;
+  }
+
+  #homeCarousel .img {
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+  }
+
+  #homeCarousel .caption {
+    position: absolute;
+    left: 5%;
+    top: 8%;
+  }
+
+  #homeCarousel .text-one {
+    font-size: 1.4rem;
+  }
+
+  #homeCarousel .caption-header {
+    font-size: 3.5rem;
+  }
+
+  #homeCarousel .text-two {
+    font-size: 2.5rem;
+  }
+
+  .home-btn {
+    width: 14rem;
+    height: 4rem;
+    font-size: 2rem;
+  }
+}
+
+/* xxl */
+@media (min-width: 1400px) {
+  #homeCarousel .text-one {
+    font-size: 2rem;
+  }
+
+  #homeCarousel .caption-header {
+    font-size: 4rem;
+  }
+
+  #homeCarousel .text-two {
+    font-size: 3rem;
+  }
+
+  .home-btn {
+    width: 18rem;
+    height: 5rem;
+    font-size: 2.5rem;
+  }
+}

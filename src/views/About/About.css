@@ -1,0 +1,215 @@
+/* about */
+#about .container-fluid {
+  padding: 0;
+}
+
+#aboutCarousel .carousel-item {
+  min-height: calc(100vh - 59px - 30px - 16px);
+}
+
+#aboutCarousel button.carousel-control-next,
+#aboutCarousel button.carousel-control-prev {
+  width: 3rem;
+  opacity: 0;
+}
+
+.about-img {
+  width: 100%;
+  height: 15rem;
+  /* height: 30vh; */
+  object-fit: cover;
+  object-position: 50% 80%;
+}
+
+.to-next {
+  background: #fff;
+  border-radius: 10px;
+  padding: 0.2rem 0.6rem;
+  color: #000;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  width: max-content;
+
+  display: flex;
+  align-items: center;
+}
+
+#aboutCarousel .about-company .to-next {
+  position: absolute;
+  right: 1rem;
+  bottom: 1.5rem;
+}
+
+#aboutCarousel .about-people .to-next {
+  position: absolute;
+  left: 1rem;
+  bottom: 1.5rem;
+}
+
+#aboutCarousel .company-content {
+  padding: 1rem 3rem 1rem 1.5rem;
+}
+
+#aboutCarousel .carousel-indicators {
+  bottom: -3rem;
+}
+
+#aboutCarousel .about-company .company-content .section-two {
+  color: #f1bd06;
+}
+
+.about-people .people-content {
+  padding: 1rem 0 0;
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.about-people .people-content h1 {
+  text-align: end;
+}
+
+#aboutCarousel .people-content .people-gallery {
+  max-height: calc(2 * 13rem);
+  overflow-y: auto;
+}
+
+#aboutCarousel .people-content .people-gallery-img {
+  height: 13rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* sm */
+@media (min-width: 576px) {
+  .about-people .people-content {
+    width: 30rem;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .about-img {
+    height: 25rem;
+  }
+
+  .company-content .section-one h1 {
+    font-size: 2rem;
+  }
+
+  .company-content p {
+    font-size: 1rem;
+  }
+
+  .company-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-people .people-content {
+    width: 35rem;
+  }
+
+  #aboutCarousel .people-content .people-gallery {
+    max-height: calc(2 * 15rem);
+  }
+
+  #aboutCarousel .people-content .people-gallery-img {
+    height: 15rem;
+  }
+}
+
+/* lg */
+@media (min-width: 992px) {
+  #aboutCarousel .carousel-item {
+    min-height: calc(100vh - 62px);
+  }
+
+  #aboutCarousel button.carousel-control-next,
+  #aboutCarousel button.carousel-control-prev {
+    opacity: 1;
+    width: 5rem;
+  }
+
+  #aboutCarousel .carousel-indicators {
+    bottom: 0;
+  }
+
+  .about-img {
+    min-height: 100%;
+    height: calc(100vh - 62px);
+  }
+
+  .about-company .row {
+    height: 100%;
+  }
+
+  .company-content .section-one h1 {
+    font-size: 2.1rem;
+  }
+
+  .company-content p {
+    font-size: 1.1rem;
+  }
+
+  .company-content h2 {
+    font-size: 1.6rem;
+  }
+
+  #aboutCarousel .company-content {
+    padding: 3rem 4rem;
+  }
+
+  .to-next {
+    font-size: 2rem;
+  }
+
+  #aboutCarousel .about-company .to-next {
+    bottom: 5rem;
+  }
+
+  #aboutCarousel .about-people .to-next {
+    bottom: 5rem;
+  }
+
+  .about-people .people-content {
+    width: 30rem;
+    margin-top: 4rem;
+  }
+
+  .carousel .carousel-indicators button {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+/* xxl */
+@media (min-width: 1400px) {
+  .about-people .people-content {
+    width: 40rem;
+    margin-top: 5rem;
+  }
+
+  #aboutCarousel .people-content .people-gallery {
+    max-height: calc(2 * 20rem);
+  }
+
+  #aboutCarousel .people-content .people-gallery-img {
+    height: 20rem;
+  }
+
+  .company-content .section-one h1 {
+    font-size: 2.5rem;
+  }
+
+  .company-content p {
+    font-size: 1.5rem;
+  }
+
+  .company-content h2 {
+    font-size: 2rem;
+  }
+
+  #aboutCarousel .company-content {
+    padding: 6rem 5rem;
+  }
+}

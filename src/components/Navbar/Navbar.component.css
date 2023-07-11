@@ -1,0 +1,21 @@
+/* navbar */
+.navbar {
+  background-color: #1d2126;
+}
+
+.navbar-brand img {
+  width: 7rem;
+  height: 2rem;
+}
+
+.navbar-nav > a:hover {
+  border-bottom: 3px solid;
+  border-radius: 3px;
+  padding-bottom: 4px;
+}
+
+.navbar-nav > a.active {
+  border-bottom: 3px solid #f1bd06;
+  border-radius: 3px;
+  padding-bottom: 4px;
+}
